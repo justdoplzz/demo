@@ -1,0 +1,7 @@
+# spring.application.name=demo
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
