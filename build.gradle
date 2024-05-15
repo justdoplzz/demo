@@ -22,15 +22,15 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-web'	// web dependency
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
-	compileOnly 'org.projectlombok:lombok'
+	compileOnly 'org.projectlombok:lombok'	// lombok
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
-	annotationProcessor 'org.projectlombok:lombok'
+	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'	// mariadb
+	annotationProcessor 'org.projectlombok:lombok'	// lombok
 
-	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
-	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl'
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'	// jsp
+	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl'	// jstl
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter-test:3.0.3'
