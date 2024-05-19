@@ -16,7 +16,6 @@ spring:
 
 # mapper
 mybatis:
-  # mapper-locations: mapper/**/*.xml
   mapper-locations: classpath:mapper/*.xml
   # mapper 의 resultType 에 <package명>.vo.UserVo 대신 UserVo만 작성 가능
-  type-aliases-package: com.example.demo.vo
+  type-aliases-package: com.example.demo.board.dto
